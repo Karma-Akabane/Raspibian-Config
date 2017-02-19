@@ -1,0 +1,4 @@
+#!/bin/bash
+
+BRIGHTNESS=$(xbacklight -get)
+echo "$BRIGHTNESS%"
